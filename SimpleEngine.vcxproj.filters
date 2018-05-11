@@ -13,11 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="WinMain.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <Filter Include="入口">
+      <UniqueIdentifier>{b10c33a8-75e1-404b-8220-67cfdd2cccec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据结构">
+      <UniqueIdentifier>{e69ea6f4-56a2-4fce-b5a4-d425ef155098}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameEngine.h">
@@ -26,5 +27,13 @@
     <ClInclude Include="GameInput.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LinkList.h">
+      <Filter>数据结构</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>入口</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
