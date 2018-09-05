@@ -118,8 +118,8 @@
 class CGameInput
 {
 	HWND m_hWnd;
-	unsigned char m_Keys[_GI_KEY_NUM];
-	int m_KeyState;
+	unsigned char m_Key[_GI_KEY_NUM];
+	int m_KeyState[_GI_KEY_NUM];
 public:
 	CGameInput(HWND hWnd);
 

@@ -311,4 +311,10 @@ void CLinkList<T>::_ExpandCapacity()
 		m_Size *= 2;
 	}
 }
+
+template <typename T>
+typename int CLinkList<T>::GetLength()
+{
+	return m_Len;
+}
 #endif
